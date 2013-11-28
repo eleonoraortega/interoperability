@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <mule-project xmlns="http://www.mulesoft.com/tooling/project" runtimeId="org.mule.tooling.server.3.4.1.ee">
-    <name>interoperability</name>
+    <name>clonado</name>
     <description>Facilitates connectivity between an on-prem system and a SaaS application.</description>
     <muleExtension name="Salesforce" qualifier="org.mule.tooling.ui.contribution.sfdc.3.5.0"/>
 </mule-project>
