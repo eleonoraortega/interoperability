@@ -19,5 +19,11 @@ http://www.mulesoft.org/schema/mule/ee/jdbc http://www.mulesoft.org/schema/mule/
         <echo-component doc:name="Echo"/>
         <logger level="INFO" doc:name="Logger"/>
     </flow>
+    <flow name="contacts-to-SFDCFlow1" doc:name="contacts-to-SFDCFlow1">
+        <poll doc:name="Poll">
+            <http:outbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" method="POST" doc:name="HTTP"/>
+        </poll>
+        <logger level="INFO" doc:name="Logger"/>
+    </flow>
 </mule>
  
