@@ -12,10 +12,6 @@ http://www.mulesoft.org/schema/mule/ee/jdbc http://www.mulesoft.org/schema/mule/
         <sfdc:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
     </sfdc:config>
     <data-mapper:config name="new_mapping_grf" transformationGraphPath="new_mapping.grf" doc:name="DataMapper"/>
-    <flow name="contacts-to-SFDCFlow1" doc:name="contacts-to-SFDCFlow1">
-        <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" doc:name="HTTP"/>
-        <echo-component doc:name="Echo"/>
-    </flow>
     <flow name="Contacts_to_SFDC" doc:name="Contacts_to_SFDC" doc:description="Upload a csv file of contact information into Salesforce as new contacts.">
         <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" doc:name="HTTP"/>
         <data-mapper:transform config-ref="new_mapping_grf" doc:name="DataMapper"/>
