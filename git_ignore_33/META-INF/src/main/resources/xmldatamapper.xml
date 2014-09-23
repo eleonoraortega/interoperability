@@ -1,0 +1,16 @@
+<users>
+ 	<user>
+		<name>eleo</name>
+		<lastName>capa</lastName>
+		<addresses>
+			<address>
+				<street>corrientes</street>
+				<zipCode>2000</zipCode>
+			</address>
+            <address>
+				<street>corr</street>
+				<zipCode>20</zipCode>
+			</address>
+		</addresses>
+	</user>
+</users>

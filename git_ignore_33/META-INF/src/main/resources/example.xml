@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+    <Section1>
+        <Field1>Value1 </Field1>
+        <Field2>Value 2 </Field2>
+        <Field3> </Field3>
+    </Section1>
+    <Section2>
+        <Field4> </Field4>
+        <Field5>Value 5 </Field5>
+        <Field6>Value6 6 </Field6>
+    </Section2>
+</Data>

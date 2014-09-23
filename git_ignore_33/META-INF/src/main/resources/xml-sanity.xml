@@ -1,0 +1,11 @@
+<staff type="staff" id="id0">
+  <employees>
+    <employee firstname="john" lastname="harrison" gender="m" phone="1111 1111"/>
+    <employee firstname="jane" lastname="doe" gender="f" phone="2222 2222"/>
+    <employee firstname="Harry" lastname="No Phone" gender="m" phone=""/>
+  </employees>
+  <managers>
+    <manager name="Larry" lastname="Larson" phone="4444 4444"/>
+    <manager name="John" lastname="Johnson" gender="M" phone="6666 6666"/>
+  </managers>
+</staff>
